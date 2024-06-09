@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/btnAdqurirSoat"
+        android:layout_width="315dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/btn_menu" />
+
+    <ImageButton
+        android:id="@+id/btnMisSeguros"
+        android:layout_width="315dp"
+        android:layout_height="213dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/btn_menu" />
+
+    <ImageButton
+        android:id="@+id/btnMisBeneficios"
+        android:layout_width="315dp"
+        android:layout_height="213dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/btn_menu" />
+
+</LinearLayout>
