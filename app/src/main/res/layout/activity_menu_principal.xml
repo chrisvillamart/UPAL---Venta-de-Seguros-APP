@@ -5,13 +5,22 @@
     android:orientation="vertical">
 
 
+    <EditText
+        android:id="@+id/lblUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name" />
+
     <ImageButton
         android:id="@+id/btnAdqurirSoat"
         android:layout_width="315dp"
         android:layout_height="213dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="8dp"
         android:src="@drawable/btn_menu" />
 
     <ImageButton

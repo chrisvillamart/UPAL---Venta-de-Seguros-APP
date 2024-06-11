@@ -7,6 +7,7 @@ import android.os.Looper
 import android.view.View
 import android.widget.ProgressBar
 import androidx.activity.ComponentActivity
+import com.upalproject.ventadeseguros.activity.LoginActivity
 import com.upalproject.ventadeseguros.activity.MenuPrincipalActivity
 
 class MainActivity : ComponentActivity() {
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
             progressBar.visibility = View.GONE
 
             // Iniciar la nueva actividad
-            val intent = Intent(this, MenuPrincipalActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
 
             finish()
@@ -28,5 +29,3 @@ class MainActivity : ComponentActivity() {
         }, 2000) // 2000 milisegundos = 2 segundos
     }
 }
-
-//Soy Italo jeje probando lo de commit
