@@ -15,7 +15,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         val usernameEditText: EditText = findViewById(R.id.txtUsuario)
-        val passwordEditText: EditText = findViewById(R.id.txtContraseña)
+        val passwordEditText: EditText = findViewById(R.id.txtContrasena)
         val loginButton: Button = findViewById(R.id.btnIngresar)
 
         loginButton.setOnClickListener {
@@ -30,7 +30,7 @@ class LoginActivity : AppCompatActivity() {
                 finish()
             } else {
                 // Mostrar un mensaje de error
-                Toast.makeText(this, "Invalid username or password", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Usuario o Contraseña Incorrecta", Toast.LENGTH_SHORT).show()
             }
         }
     }

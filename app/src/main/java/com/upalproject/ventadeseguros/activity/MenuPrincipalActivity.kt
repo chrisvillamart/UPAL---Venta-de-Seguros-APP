@@ -14,6 +14,6 @@ class MenuPrincipalActivity : AppCompatActivity() {
 
         // Mostrar el nombre de usuario en un TextView
         val welcomeTextView: TextView = findViewById(R.id.lblUsuario)
-        welcomeTextView.text = "Welcome, $username!"
+        welcomeTextView.text = "Bienvenido, $username!"
     }
 }
